@@ -9,6 +9,7 @@ namespace Praca_dom1
     {
         static void Main(string[] args)
         {
+            //Liczby typu double to z przecinkiem, nie z kropka np. 2,5   nie 2.5
             double a, b, c, x, x1, x2;
             Console.WriteLine("Podaj wspolczynnik a: ");
             a = double.Parse(Console.ReadLine());

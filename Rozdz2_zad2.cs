@@ -28,8 +28,7 @@ namespace Praca_dom1
                 if (delta < 0){
                     Console.WriteLine("Brak rozwiazania");
                 }
-                else Console.WriteLine("Zakaz dzielenia przez 0");
-                
+                else Console.WriteLine("Zakaz dzielenia przez 0");      
             }
             else{
                 x = -b / dzielnik;
@@ -41,3 +40,4 @@ namespace Praca_dom1
     }
 }
 
+//Urszula B.

@@ -5,3 +5,22 @@ int powierzchnia = 100, osoby = 10;
 double gestoscZaludnienia = osoby/powierzchnia;
 Console.WriteLine(gestoscZaludnienia);
  */
+ 
+ using System;
+
+namespace Praca_dom1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int powierzchnia = 100, osoby = 10;
+            double gestoscZaludnienia = (Convert.ToDouble(osoby) / powierzchnia);  // bo jak sie podzieli inty, to utnie koncowke, trzeba przerzutowac z inta na double'a
+            Console.WriteLine("Gestosc zaludnienia ={0:F1}", gestoscZaludnienia);  // F1 zaweza do 1 miejsca po przecinku
+
+            Console.ReadKey();
+        }
+    }
+}
+
+//Urszula B.

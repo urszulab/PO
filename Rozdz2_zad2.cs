@@ -23,16 +23,20 @@ namespace Praca_dom1
                 x1 = (-b - Math.Sqrt(delta)) / dzielnik;
                 x2 = (-b + Math.Sqrt(delta)) / dzielnik;
                 Console.WriteLine("x1={0}, y={1}", x1, x2);
+                Console.ReadKey();
             } 
             else if (delta<0 || dzielnik ==0 ){
                 if (delta < 0){
                     Console.WriteLine("Brak rozwiazania");
+                    Console.ReadKey();
                 }
-                else Console.WriteLine("Zakaz dzielenia przez 0");      
+                else Console.WriteLine("Zakaz dzielenia przez 0"); 
+                Console.ReadKey();
             }
             else{
                 x = -b / dzielnik;
                 Console.WriteLine(" x={0}", x);
+                Console.ReadKey();
 
 
             }

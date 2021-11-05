@@ -10,3 +10,23 @@ x = y--;   // tu x o jeden wieksze, czyli 3, bo y sie zwiekszyl o 1 po wczesniej
 
 */
 
+using System;
+
+namespace Praca_dom1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int x, y = 4;
+            x = (y -= 2);
+            x = y++;
+            x = y--;
+            Console.WriteLine(" x={0}, y={1}", x, y);
+            Console.ReadKey();
+        }
+    }
+}
+
+//Urszula B.
+

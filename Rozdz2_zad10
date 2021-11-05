@@ -1,0 +1,7 @@
+/* Po wykonaniu przedstawionego niżej kodu programu zmienna gestoscZaludnienia
+przyjmie wartość 0. Odpowiedz dlaczego i zmień program (w linii, gdzie jest obliczana 
+zmienna gestoscZaludnienia) tak, aby wartość tej zmiennej wynosiła 0,1 (czyli 10/100):
+int powierzchnia = 100, osoby = 10;
+double gestoscZaludnienia = osoby/powierzchnia;
+Console.WriteLine(gestoscZaludnienia);
+ */

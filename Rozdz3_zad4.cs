@@ -17,7 +17,7 @@ namespace rozdzial3
             Console.WriteLine("Podaj liczbe b: ");
             b = double.Parse(Console.ReadLine());
             Console.WriteLine("Wpisz znak + lub – lub * lub /: ");
-            znak = Convert.ToChar(Console.ReadLine()); // trzeba jawnie przekonwertowac ze stringa (RedLine(); czyta jako string) do chara, bo niejawnie sie nie da
+            znak = Convert.ToChar(Console.ReadLine()); // trzeba jawnie przekonwertowac ze stringa (ReadLine(); czyta jako string) do chara, bo niejawnie sie nie da
             
             switch (znak)
             {

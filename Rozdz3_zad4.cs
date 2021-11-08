@@ -10,6 +10,7 @@ namespace rozdzial3
     {
         static void Main(string[] args)
         {
+            // WPISYWAC LICZBY ZMIENNOPRZECINKOWE Z PRZECINKIEM NIE Z KROPKA
             double a, b;
             char znak;
             Console.WriteLine("Podaj liczbe a: ");

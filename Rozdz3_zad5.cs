@@ -39,8 +39,6 @@ namespace Praca_dom1
             {
                 Console.WriteLine("Rownanie ma 1 rozwiazanie");
                 Console.ReadKey();
-
-
             }
         }
     }

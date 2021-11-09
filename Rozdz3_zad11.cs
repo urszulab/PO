@@ -13,12 +13,15 @@ namespace rozdzial3
         static void Main(string[] args)
         {
             int suma = 0;
+            int licznik = 1;
             for (int i = 1; suma >= 0; i++){
                 suma += i;
+                licznik = i;
                 Console.WriteLine("suma = {0}", suma);
                 if (suma > 100 && suma < 110)
                 {
                     Console.WriteLine("Suma przekroczyla 100");
+                    Console.WriteLine("Ilosc liczba potrzebna = {0}", licznik);
                     break;
                 }
                 else continue;
@@ -27,3 +30,4 @@ namespace rozdzial3
     }
 }
 //Urszula B.
+           

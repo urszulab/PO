@@ -1,4 +1,4 @@
-/*Zadanie 3.11. 
+/*Zadanie 3.9 a) . 
 Napisz program wyswietlajacy :
  
 *

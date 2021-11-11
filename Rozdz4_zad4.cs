@@ -38,10 +38,10 @@ namespace rozdzial4
                 }
                 if (licznik == 1)
                 {
-                    Console.WriteLine(tab[i] + " jest liczba pierwsza");
+                    Console.WriteLine("{0} jest liczba pierwsza.", tab[i]);
                 }
             }
         }
     }
 }
-//Urszula B
+//Urszula B.

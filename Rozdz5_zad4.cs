@@ -8,18 +8,16 @@ przez metodę. */
 
 using System;
 
-namespace rozdzial4
+namespace rozdzial5
 {
     class Program
     {
-
         static int[] Mnozenie(int[] tablica, int liczba)
-        { 
-             
-                int[] nowa = new int[tablica.Length]; 
-                for (int i = 0; i < tablica.Length; i++)
-                    nowa[i] = tablica[i] * liczba;
-                return nowa;
+        {
+            int[] tab_nowa = new int[tablica.Length];
+            for (int i = 0; i < tablica.Length; i++)
+                tab_nowa[i] = tablica[i] * liczba;
+            return tab_nowa;
         }
         static void Main(string[] args)
         {
@@ -29,7 +27,7 @@ namespace rozdzial4
             {
                 Console.Write("{0} ", tab[j]);
             }
-            Console.WriteLine("A teraz tablica z metody: ");
+            Console.WriteLine("\nTablica druga, zmieniona: ");
             int[] tab2 = Mnozenie(tab, liczba);
             for (int j = 0; j < tab2.Length; j++)
             {
@@ -38,3 +36,4 @@ namespace rozdzial4
         }
     }
 }
+//Urszula B.

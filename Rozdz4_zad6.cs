@@ -7,8 +7,6 @@ tablicy (główna przekątna – od elementu o indeksach 0,0 do elementu o indek
 
  */
 
-//gdzies tu dodaje 4 zbedne... !!
-
 using System;
 
 namespace rozdzial4
@@ -32,26 +30,20 @@ namespace rozdzial4
                 }
                 Console.WriteLine();
             }
-            int m = 5;
+            //int m = 5;
             int suma = 0;
             for (int i = 0; i <5; i++)
             {                                  
-                m = m -1;
                 for (int j = 0; j<5; j++)
-                {
-                    
-                    if (j == m)
+                {  
+                    if (i==j)
                     {
                         suma = suma + tab[i, j];
-                    }
-                    
+                    } 
                 }
             }
             Console.Write("Suma tych elementow wynosi  :{0}\n", suma);
             Console.ReadKey();
-
-
-
         }
     }
 }

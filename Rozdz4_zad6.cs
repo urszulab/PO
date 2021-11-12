@@ -20,8 +20,6 @@ namespace rozdzial4
                                       {-28, 28, 19, 88, 99 },
                                       {15, 33, 22, 10, 86 },
                                       {17, 25, 45, 75, 35 } };
-
-            //int[,] tablica2d = { { 1, 2 }, { 3, 4 }, { 5, 6 }, { 7, 8 } };
             for (int a = 0; a < 5; a++)
             {
                 for (int b = 0; b < 5; b++)
@@ -30,7 +28,6 @@ namespace rozdzial4
                 }
                 Console.WriteLine();
             }
-            //int m = 5;
             int suma = 0;
             for (int i = 0; i <5; i++)
             {                                  
